@@ -1,0 +1,81 @@
+/* IMPORTAÇÕES */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    background-color: #5ec8cd;
+}
+
+/* MAIN */
+main{
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+main .card-container{
+    background-color: #fff;
+    width: 20em;
+    height: 30em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 5px 6px #0000001a;
+}
+
+main .card-container .sub-titulo-tenis{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+main .card-container .imagem-tenis-container{
+    text-align: center;
+}
+main .card-container .imagem-tenis-container .imagem-tenis{
+    width: 14em;
+}
+
+main .card-container .titulo-tenis{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main .card-container .descricao-tenis{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 0.8rem;
+    margin: 0 1em 1em 1em;
+}
+
+main .card-container .btn-add-container{
+    width: 100%;
+    text-align: center; 
+}
+
+main .card-container .btn-add-container .btn-add{    
+    border: none;
+    background: none;   
+    cursor: pointer;    
+}
+
+main .card-container .btn-add-container .btn-add .add-circle{
+    color:#5ec8cd;
+    font-size: 4rem;
+}
+
+main .card-container .btn-add-container .btn-add .add-circle:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+main .card-container .btn-add-container .btn-add .cancel{
+    color:#ff5656;
+}
