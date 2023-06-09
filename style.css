@@ -29,10 +29,19 @@ main .card-container{
     box-shadow: 0px 0px 5px 6px #0000001a;
 }
 
-main .card-container .sub-titulo-tenis{
-    font-family: 'Bebas Neue', sans-serif;
+main .card-container .sub-titulo-tenis-container {
+    height: 2em;
     text-align: center;
-    margin-top: 0.5em;
+    padding-top: 0.5em;
+}
+
+main .card-container .sub-titulo-tenis-container .sub-titulo-tenis{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main .sub-titulo-tenis-container .preco{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 
 main .card-container .imagem-tenis-container{
