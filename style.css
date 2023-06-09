@@ -24,9 +24,20 @@ main{
 main .card-container{
     background-color: #fff;
     width: 20em;
-    height: 30em;
+    height: 32em;
     border-radius: 1em;
     box-shadow: 0px 0px 5px 6px #0000001a;
+}
+
+main .card-container .desconto{
+    height: 2em;
+    background-color: #ff613a;
+    border-radius: 1em 1em 0 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 main .card-container .sub-titulo-tenis-container {
