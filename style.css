@@ -64,27 +64,43 @@ main .card-container .descricao-tenis{
     margin: 0 1em 1em 1em;
 }
 
-main .card-container .btn-add-container{
+main .card-container .bottom-card-container{
     width: 100%;
-    text-align: center; 
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;font-family: 'Montserrat', sans-serif;
 }
 
-main .card-container .btn-add-container .btn-add{    
+main .card-container .bottom-card-container .tamanho-container{
+    margin-left: 6em;
+}
+
+main .card-container .bottom-card-container .tamanho-container #tamanho{
+    height: 2em;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+main .card-container .bottom-card-container .btn-add{    
     border: none;
     background: none;   
-    cursor: pointer;    
+    cursor: pointer;
+    margin-right: 6em;    
 }
 
-main .card-container .btn-add-container .btn-add .add-circle{
+main .card-container .bottom-card-container .btn-add .add-circle{
     color:#5ec8cd;
     font-size: 4rem;
 }
 
-main .card-container .btn-add-container .btn-add .add-circle:hover{
+main .card-container .bottom-card-container .btn-add .add-circle:hover{
     transition: 0.3s;
     transform: scale(1.2);
 }
 
-main .card-container .btn-add-container .btn-add .cancel{
+main .card-container .bottom-card-container .btn-add .cancel{
     color:#ff5656;
 }
