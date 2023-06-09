@@ -24,7 +24,7 @@ main{
 main .card-container{
     background-color: #fff;
     width: 20em;
-    height: 32em;
+    height: 34em;
     border-radius: 1em;
     box-shadow: 0px 0px 5px 6px #0000001a;
 }
@@ -60,6 +60,52 @@ main .card-container .imagem-tenis-container{
 }
 main .card-container .imagem-tenis-container .imagem-tenis{
     width: 14em;
+}
+
+main .card-container .cor{
+    display: flex;
+    justify-content: center;
+}
+
+main .card-container .cor .selecao-cor{
+    appearance: none;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 0.5em;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .card-container .cor .selecao-cor:before{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    content: '';
+    border-radius: 50%;
+    border: 2px solid #000000;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+}
+
+main .card-container .cor .selecao-cor:checked::before{
+    opacity: 1;
+}
+
+main .card-container .cor #azul{
+    background-color: #5ec8cd;
+}
+
+main .card-container .cor #roxo{
+    background-color: #7a5ab9;
+}
+
+main .card-container .cor #vermelho{
+    background-color: #db3842;
 }
 
 main .card-container .titulo-tenis{
