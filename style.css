@@ -125,13 +125,10 @@ main .card-container .bottom-card-container{
     width: 100%;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
     align-items: center;
     align-items: center;font-family: 'Montserrat', sans-serif;
-}
-
-main .card-container .bottom-card-container .tamanho-container{
-    margin-left: 6em;
 }
 
 main .card-container .bottom-card-container .tamanho-container #tamanho{
@@ -145,7 +142,6 @@ main .card-container .bottom-card-container .btn-add{
     border: none;
     background: none;   
     cursor: pointer;
-    margin-right: 6em;    
 }
 
 main .card-container .bottom-card-container .btn-add .add-circle{
@@ -158,9 +154,10 @@ main .card-container .bottom-card-container .btn-add .add-circle:hover{
 }
 
 main .card-container .bottom-card-container .btn-add .cancel{
-    color:#ff5656;
+    color:#db3842;
 }
 
+/* CLASSES ADICIONAIS */
 .colorAzul{
     color: #5ec8cd;
 }
@@ -172,3 +169,6 @@ main .card-container .bottom-card-container .btn-add .cancel{
     color: #db3842;
 }
 
+.display-none{
+    display: none;
+}

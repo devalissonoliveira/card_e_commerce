@@ -2,15 +2,17 @@ const body = document.querySelector("body");
 const selecaoCor = document.querySelectorAll(".selecao-cor");
 
 const subTituloTenisContainer = document.querySelector(".sub-titulo-tenis-container");
-const subTituloTenisContainerOriginal = subTituloTenisContainer.innerHTML;
 
 const imagemTenisContainer = document.querySelector(".imagem-tenis-container");
 
 const subTituloTenis = document.querySelector(".sub-titulo-tenis");
+const preco = document.querySelector(".preco");
 
 const btnAddCancel = document.querySelector(".btn-add");
 const iconAddCancel = document.querySelector(".material-symbols-outlined");
 
+
+// FUNÇÕES E EVENTOS DA SELEÇÃO DE COR
 function mudarCorTenisAzul(){
     body.style.backgroundColor = "#5ec8cd";
     subTituloTenis.innerText = "BLUE";
@@ -45,22 +47,24 @@ function mudarCorTenisVermelho(){
     imagemTenisContainer.innerHTML = `<img class="imagem-tenis" src="./imagens/tenisVermelho.png" alt="Tenis Azul">`;
 }
 
-
 selecaoCor[0].addEventListener("click", mudarCorTenisAzul);
 selecaoCor[1].addEventListener("click", mudarCorTenisRoxo);
 selecaoCor[2].addEventListener("click", mudarCorTenisVermelho);
 
 
+// FUNÇÕES E EVENTOS DO BOTÃO DE ADICIONAR A COMPRA
 function precoOver(){
-    subTituloTenisContainer.innerHTML = `<p class="preco">R$ 279,00</p>`;
+    subTituloTenis.classList.add("display-none");
+    preco.classList.remove("display-none");
 }
 
 function DevolverSubTituloTenis(){
-    subTituloTenisContainer.innerHTML = `${subTituloTenisContainerOriginal}`;
+    subTituloTenis.classList.remove("display-none");
+    preco.classList.add("display-none");
 }
 
-iconAddCancel.addEventListener("mouseover", precoOver);
-iconAddCancel.addEventListener("mouseout", DevolverSubTituloTenis);
+btnAddCancel.addEventListener("mouseover", precoOver);
+btnAddCancel.addEventListener("mouseout", DevolverSubTituloTenis);
 
 function addCancel(){
     if (iconAddCancel.classList.contains("cancel")){
