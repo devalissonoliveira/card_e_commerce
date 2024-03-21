@@ -10,3 +10,6 @@ Este projeto foi pensado por mim como um desafio pessoal, visando colocar em pr√
 
 ## Deploy do projeto 
 [Clique aqui](https://devalissonoliveira.github.io/card_e_commerce/)
+
+## Contatos
+[![linkedin](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/alisson-oliveira-2b28b9249)   [![github](https://skillicons.dev/icons?i=github)](https://github.com/devalissonoliveira)
