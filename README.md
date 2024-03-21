@@ -1,5 +1,5 @@
 # Card de E-comerce 
-Este projeto foi pensado por mim como um desafio pessoal, visando colocar em prática todos os conhecimentos adquiridos durante o curso de Introdução à Programação com foco em Front-End da Proz Tecnologia, em parceria com AWS, Meta e portal tech.
+Este projeto foi pensado por mim como um desafio pessoal, visando colocar em prática todos os conhecimentos adquiridos durante o curso de Introdução à Programação com foco em Front-End da Proz Tecnologia, em parceria com AWS, Meta e Portal Tech.
 
 **Objetivo:** Criar um cartão de e-commerce que, por meio da interação do usuário com a cor selecionada do produto, adapta a página às suas cores e especificações utilizando JavaScript para realizar alterações no HTML e CSS. Além disso, utilizamos uma técnica de vendas que mostra o preço apenas quando o cliente demonstra interesse, ao passar o mouse sobre o botão "Adicionar ao Carrinho" através da pseudo-classe :hover. Podemos também observar o elemento select em ação através da seleção do número do produto.
 
